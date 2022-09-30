@@ -1,0 +1,199 @@
+/*======== Gobal======== */
+
+*{   margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif; 
+    box-sizing: border-box;
+
+
+}
+
+a{
+    text-decoration:none ;
+   
+
+}
+ul{
+    list-style: none;
+}
+/* ===Navar=== */
+.navar{ 
+    position: absolute;
+    top:0%;
+    left:0%;
+   display: flex;
+    justify-content:space-between;
+    width:100%;
+    padding:20px;
+    color:whitesmoke ;
+}
+.nav-link{ 
+    display: flex;
+    align-items: center;
+
+}
+.nav-link li{ 
+    margin:0px 30px ;
+    
+}
+.nav-link li a{ 
+    color: whitesmoke;
+}
+
+header{ 
+    width: 100vw;
+    height: 100vh;
+    background-image: url(field-ge4d2466da_1920.jpg) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{ 
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+  }
+.header-content h2{ 
+
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 5px;
+    background:#fc04f4 ;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.header-content h1{  
+    font-size: 7vmin;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+}
+.ctn{ 
+    padding: 8px 15px;
+    background:#fc04f4 ;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-top: 50px;
+
+}
+/* main start */
+section{ 
+    width: 100%;
+    margin: 80px auto;
+
+}
+.title{ text-align:center;
+font-size:4vmin ;
+color:#181840 ;}
+.sec{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    /* flex-direction: column; */
+   
+}
+h3{ margin: 5px auto;
+color: #154840;}
+p{
+    color:#181840;
+    
+}
+
+
+.row{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px;
+}
+.row a{ margin: 50px;}
+
+/* Explore */
+.explore{ 
+    width:100%;
+    height: 100vh;
+    background-image: url(blog3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.explore-content{
+    
+    width: 50%;
+    padding: 50px;
+    color:red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.explore-content a{ 
+    margin: 50px;
+
+}
+.content-col{ 
+    width: 50%;
+}
+.col-content-col{
+    text-align: center;
+    
+}
+
+
+.img-col{ 
+    width: 50%;
+}
+.tours .img-gallery{ 
+
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+    align-items: center;
+
+}
+
+.img-gallery img{ 
+  max-width: 250px;
+    margin: 10px ;
+    margin-top: 40px
+   
+
+}
+
+
+.row{ 
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+footer{ 
+    width: 100%;
+    height: 200px;
+    padding: 30px 80px;
+    text-align: center;
+   background-color: gray;
+}
+footer p{ 
+    color: whitesmoke;
+}
+/* animision */
+/* .img-gallery{ transition: transform .3s ease;} */
+.img-gallery img:hover{ 
+    transform: scale(1.1);
+    box-shadow: 5px 2px 15px blue;
+}
+.ctn:hover{ background-color:seagreen;
+cursor: pointer;}
+span{ color: aqua;}
+footer div h2{ color: red;}
+
+
+
